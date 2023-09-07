@@ -16,11 +16,11 @@ const Header = () => {
   return <AppBar 
   position='sticky'
   sx={{ background: 
-  "linear-gradient(90deg, rgba(9,113,121,1) 3%, rgba(205,110,231,1) 100%)" }}>
+  "linear-gradient(90deg, rgba(9,113,121,1) 3%, rgba(5,80,743,0.6) 100%)" }}>
       
       <Toolbar>
           <Typography variant='h4'>
-              BlogsApp
+            Verbella
           </Typography>
          { isLoggedIn && <Box display="flex" marginLeft={"auto"} marginRight="auto">
             <Tabs
